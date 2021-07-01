@@ -12,12 +12,12 @@
     text-decoration: underline;
 }
 
-.header__lang-link:not(:last-child){
+.header__lang-link_activated:not(:last-child){
     margin-right: 18px;
 }
 
 @media screen and (max-width: 767px)  {
-    .header__lang-link{
+    .header__lang-link_activated{
         font-size: 18px;
         line-height: 20px;
     }
