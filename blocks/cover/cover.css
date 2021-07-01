@@ -2,7 +2,7 @@
     width: 1184px;
     height: 740px;
 
-    background: url(../../images/cover-trains.jpg) no-repeat center center; 
+    background: url(../../images/cover-trains.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,15 +15,12 @@
 
 @media screen and (min-width: 1280px){
     .cover{
-        max-width: 1184px;
         max-height: 740px;
-        max-width: 100%;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover{
-        max-width: 1024px;
         max-height: 640px;
         max-width: 100%;
     }
