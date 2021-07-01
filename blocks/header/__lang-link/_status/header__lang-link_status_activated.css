@@ -1,4 +1,4 @@
-.header__lang-link_activated{
+.header__lang-link_status_activated{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -11,12 +11,12 @@
     text-decoration: underline;
 }
 
-.header__lang-link_activated:not(:last-child){
+.header__lang-link_status_activated:not(:last-child){
     margin-right: 18px;
 }
 
 @media screen and (max-width: 767px)  {
-    .header__lang-link_activated{
+    .header__lang-link_status_activated{
         font-size: 18px;
         line-height: 20px;
     }
