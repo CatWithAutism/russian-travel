@@ -1,0 +1,47 @@
+.footer__link{
+    margin: 0 0 0 0;
+    text-decoration: none;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    color: #FFFFFF;
+
+    animation: getOut 0.5s ease-in-out 0s;
+    animation-fill-mode: forwards;
+}
+
+.footer__link:hover{
+    animation: getOverHere 0.5s ease-in-out 0s;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 767px)  {
+    .footer__link{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+@keyframes getOverHere {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
+
+@keyframes getOut {
+    from{
+        opacity: 0.8;
+    }
+    to{
+        opacity: 1;
+    }
+}
