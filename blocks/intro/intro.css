@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .intro{
         margin-top: 92px;
         margin-left: auto;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro{
         width: fit-content;
         width: -moz-fit-content;
@@ -32,7 +32,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .intro{
         width: auto;
         margin-top: 64px;
