@@ -1,15 +1,12 @@
-.place-container__url-heading{
-    font-family: Inter;
+.place-container__url-heading {
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
     /* identical to box height, or 100% */
-
     letter-spacing: 2px;
-
     color: #AAAAAA;
-
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 12px;

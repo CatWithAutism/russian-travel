@@ -1,29 +1,8 @@
 .intro {
     display: flex;
     flex-direction: column;
-    margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
-}
-
-@media screen and (min-width: 1280px) {
-    .intro {
-        max-width: 984px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .intro {
-        max-width: 928px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .intro {
-        width: fit-content;
-        width: -moz-fit-content;
-        margin-top: 88px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -32,5 +11,26 @@
         margin-top: 64px;
         margin-left: 16px;
         margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        /*width: fit-content;
+        width: -moz-fit-content;*/
+        margin-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        margin-top: 92px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        max-width: 984px;
     }
 }

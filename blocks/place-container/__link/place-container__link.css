@@ -1,42 +1,38 @@
-.place-container__link{
-    font-family: Inter;
+.place-container__link {
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     /* identical to box height, or 122% */
-
     text-decoration-line: underline;
-
     color: #FFFFFF;
-
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
-    
     animation: getOut 0.5s ease-in-out 0s;
     animation-fill-mode: forwards;
 }
 
-.place-container__link:hover{
+.place-container__link:hover {
     animation: getOverHere 0.5s ease-in-out 0s;
     animation-fill-mode: forwards;
 }
 
 @keyframes getOverHere {
-    from{
+    from {
         opacity: 1;
     }
-    to{
+    to {
         opacity: 0.8;
     }
 }
 
 @keyframes getOut {
-    from{
+    from {
         opacity: 0.8;
     }
-    to{
+    to {
         opacity: 1;
     }
 }

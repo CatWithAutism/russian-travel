@@ -1,4 +1,4 @@
-.footer__link-container{
+.footer__link-container {
     display: flex;
     height: fit-content;
     height: -moz-fit-content;
@@ -7,8 +7,14 @@
     margin: 0 0 0 0;
 }
 
-@media screen and (max-width: 768px)  {
-    .footer__link-container{
+@media screen and (max-width: 768px) {
+    .footer__link-container {
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__link-container {
+        flex-direction: row;
     }
 }

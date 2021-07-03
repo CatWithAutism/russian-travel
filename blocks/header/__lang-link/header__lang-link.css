@@ -1,5 +1,5 @@
 .header__lang-link {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -19,16 +19,16 @@
     }
 }
 
-.header__lang-link:hover {
-    animation: getOverHere 0.5s ease-in-out 0s;
-    animation-fill-mode: forwards;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .header__lang-link {
         font-size: 24px;
         line-height: 24px;
     }
+}
+
+.header__lang-link:hover {
+    animation: getOverHere 0.5s ease-in-out 0s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes getOverHere {
