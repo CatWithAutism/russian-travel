@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -7,13 +7,44 @@
     text-align: right;
     color: #FFFFFF;
     text-decoration: none;
-
     display: block;
+    animation: getOut 0.5s ease-in-out 0s;
+    animation-fill-mode: forwards;
 }
 
-@media screen and (max-width: 768px)  {
-    .header__lang-link{
+@media screen and (max-width: 768px) {
+    .header__lang-link {
         font-size: 18px;
         line-height: 20px;
+    }
+}
+
+.header__lang-link:hover {
+    animation: getOverHere 0.5s ease-in-out 0s;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+@keyframes getOverHere {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+@keyframes getOut {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
     }
 }
